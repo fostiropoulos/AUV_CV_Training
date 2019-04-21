@@ -1,5 +1,7 @@
 ## Instructions on Training on AUV Underwater Dataset
 
+![](out/298.jpg)
+
 #### Clone AlexeyAB Darknet Repo
 
 `git clone https://github.com/AlexeyAB/darknet.git`
