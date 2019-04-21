@@ -71,4 +71,4 @@ For correct class labels modify `data/obj.names`
 python visualize.py
 ```
 
-![](visualize.png)
+![](docs/visualize.png)

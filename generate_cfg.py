@@ -22,7 +22,7 @@ print("Found %s classes"%class_num)
 
 from string import Template
 
-filein = open( 'yolov3_tiny_cfg.template' )
+filein = open( 'cfg/yolov3_tiny_cfg.template' )
 src = Template( filein.read() )
 
 classes=class_num
@@ -31,7 +31,7 @@ d={ 'classes':classes, 'filters':(5+classes)*3, 'max_batches':classes*2000, 'ste
 
 result = src.substitute(d)
 
-fh = open("yolov3_tiny.cfg","w")
+fh = open("cfg/yolov3_tiny.cfg","w")
 fh.write(result)
 
 filein = open( 'data/obj.data.template' )
